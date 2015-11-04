@@ -144,7 +144,7 @@
 				closeBtn : '<a title="Close" class="fancybox-item fancybox-close" href="javascript:;"></a>',
 				next     : '<a title="Next" class="fancybox-nav fancybox-next" href="javascript:;"><span></span></a>',
 				prev     : '<a title="Previous" class="fancybox-nav fancybox-prev" href="javascript:;"><span></span></a>',
-				loading  : '<div id="fancybox-loading"><div></div></div>'
+				loading  : '<div class="ldr-block ldr-dark"></div>'
 			},
 
 			// Properties for each animation type
@@ -981,7 +981,7 @@
 						F.hideLoading();
 					}
 				},
-				success: function (data, textStatus) {
+				success: function (data, te`xtStatus) {
 					if (textStatus === 'success') {
 						coming.content = data;
 
