@@ -144,7 +144,7 @@
 				closeBtn : '<a title="Close" class="fancybox-item fancybox-close" href="javascript:;"></a>',
 				next     : '<a title="Next" class="fancybox-nav fancybox-next" href="javascript:;"><span></span></a>',
 				prev     : '<a title="Previous" class="fancybox-nav fancybox-prev" href="javascript:;"><span></span></a>',
-				loading  : '<div class="fancy-ldr-block ldr-dark"></div>'
+				loading  : '<div id="fancy-ldr-block" class="ldr-dark"></div>'
 			},
 
 			// Properties for each animation type
@@ -607,7 +607,7 @@
 		hideLoading: function () {
 			D.unbind('.loading');
 
-			$('#fancybox-loading').remove();
+			$('#fancy-ldr-block').remove();
 		},
 
 		showLoading: function () {
