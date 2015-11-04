@@ -981,7 +981,7 @@
 						F.hideLoading();
 					}
 				},
-				success: function (data, te`xtStatus) {
+				success: function (data, textStatus) {
 					if (textStatus === 'success') {
 						coming.content = data;
 
