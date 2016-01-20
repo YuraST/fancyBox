@@ -1279,7 +1279,7 @@
 			origMaxHeight = maxHeight;
 
 			if (current.fitToView) {
-				maxWidth  = Math.min(viewport.w - wSpace, maxWidth);
+				maxWidth  = Math.min(viewport.w - wSpace, maxWidth) - 220;
 				maxHeight = Math.min(viewport.h - hSpace, maxHeight);
 			}
 
